@@ -9,35 +9,40 @@
     <main>
         <header class="header">
             <h1 class="header__heading">HTML Tables</h1>
-            <p class="header__intro">
-                This is a cheat sheet for HTML Tables. Html Tables are a powerful way of laying out information. However, they are very bland, and almost unreadable without some CSS help.
-            </p>
-            <img class="header__table-img" src="C:\Users\nunu1\OneDrive\Documents\Code\Projects\html-css-cheatsheet-starting\tables.jpg" alt="">
+            <ul class="header__intro">
+                <li class="header__intro__info">
+                    This is a cheat sheet for HTML Tables. HTML Tables are a powerful way of laying out information. However, they are very bland, and almost unreadable without some CSS help.
+                </li>
+            </ul>
         </header>
         <body>
             <section class="html-tables">
-                <h2 class="html-tables__heading">The Humble HTML Table</h2>
-                <p class="html-tables__info">HTML tables are a reasonable easy way to convey information in a table layout using just HTML.There is some functionality that allows customization of the table, but it is pretty limited. You can set the amount of rows, and columns, as well as adding cells that span multiple rows or columns, but that is about the extent of it. Of course, there is pretty limitless customization with CSS.</p>
-                <table class="html-tables__ugly-table">
-                    <thead>
-                        <tr>
-                            <th span="col">Table without CSS</th>
-                            <th span="col">Heading 2</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td colspan="2">It is really quite ugly</td>
-                        </tr>
-                        <tr>
-                            <td>No borders</td>
-                            <td>Not spaced well</td>
-                        </tr>
-                    </tbody>
-                </table>
+                <article class="html-tables__left">
+                    <h2 class="html-tables__heading">The Humble HTML Table</h2>
+                    <p class="html-tables__info">HTML tables are a reasonable easy way to convey information in a table layout using just HTML.There is some functionality that allows customization of the table, but it is pretty limited. You can set the amount of rows, and columns, as well as adding cells that span multiple rows or columns, but that is about the extent of it. Of course, there is pretty limitless customization with CSS.</p>
+                </article>
+                <article class="html-tables__right">
+                    <table class="html-tables__ugly-table">
+                        <thead>
+                            <tr>
+                                <th span="col">Table without CSS</th>
+                                <th span="col">Heading 2</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td colspan="2">It is really quite ugly</td>
+                            </tr>
+                            <tr>
+                                <td>No borders</td>
+                                <td>Not spaced well</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </article>
             </section>
             <section class="cheatsheet">
-                <h2 class="cheatsheet__heading">HTML Table Cheat-Sheet</h2>
+                <h2 class="cheatsheet__heading">HTML Table Cheat-Sheet:</h2>
                 <p class="cheatsheet__info">This is a table containing HTML table syntax, with a brief description alongside. You will notice that this table looks much more put together, and is easer to read due to some extra CSS.</p>
                 <table class="cheatsheet__index-table">
                     <thead>

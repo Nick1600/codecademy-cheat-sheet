@@ -1,9 +1,61 @@
 main {
     box-sizing: border-box;
-    padding: 20px;
     font-family: 'Roboto', sans-serif;
 }
 
 h1 h2 {
     font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    color:hsl(0, 55%, 21%);
+}
+
+.header__heading {
+    font-size: 50px;
+    height: 100px;
+    width: 900px;
+    background-color: hsl(0, 55%, 21%);
+    color: white;
+    padding-left: 40%;
+    padding-top: 3%;
+}
+
+.header__intro {
+    background-image: url("tables.jpg");
+    height: 500px;
+    font-size: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 250px;
+}
+.header__intro__info {
+    color: white;
+    width: 800px;
+    padding-left: 50px;
+}
+
+.html-tables {
+    position: relative;
+    left: 300px;
+    display: grid;
+    height: 250px;
+    width: 950px;
+    grid-template: 1fr / 1fr 1fr;
+    background-color: hsl(0, 0%, 79%);
+}
+.html-tables__left {
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+    border-right: 3px hsl(0, 55%, 21%) solid;
+    width: 400px;
+    padding-right: 37.5px;
+    padding-left: 37.5px;
+}
+.html-tables__right {
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

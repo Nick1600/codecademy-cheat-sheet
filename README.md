@@ -1,4 +1,4 @@
-HTML-CSS-CHEATSHEET
+HTML-CSS-CHEAT-SHEET
 ===================
 
 This is a Codecademy project.
