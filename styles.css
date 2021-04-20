@@ -74,3 +74,47 @@ h2 {
     padding-left: 30px;
 }
 
+.cheatsheet__table {
+    background-color:hsl(0, 0%, 79%);
+    position: relative;
+    left: 425px;
+    top: 50px;
+    width: 700px;
+    height: auto;
+    padding-bottom: 25px;
+}
+.cheatsheet__table__index {
+    width: 500px;
+    margin-left: 100px;
+}
+.cheatsheet__table__index th {
+    height: 50px;
+}
+.cheatsheet__table__right {
+    border-right: 3px solid hsl(0, 55%, 21%);
+}
+
+.conclusion {
+    background-color: hsl(0, 55%, 21%);
+    position: relative;
+    top: 80px;
+}
+.conclusion__heading {
+    color: white;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.conclusion__info {
+    color: white;
+    padding-left: 30px;
+}
+.conclusion__thought {
+    color: white;
+    padding-left: 40px;
+}
+
+.feeet {
+    position: relative;
+    top: 75px;
+    font-size: 10px;
+}

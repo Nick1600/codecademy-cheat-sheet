@@ -42,65 +42,69 @@
                 </article>
             </section>
             <section class="cheatsheet">
-                <h2 class="cheatsheet__heading">HTML Table Cheat-Sheet:</h2>
-                <p class="cheatsheet__info">This is a table containing HTML table syntax, with a brief description alongside. You will notice that this table looks much more put together, and is easer to read due to some extra CSS.</p>
-                <table class="cheatsheet__index-table">
-                    <thead>
-                        <tr>
-                            <th span="col">Syntax</th>
-                            <th span="col">description</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>>table>     >/table></td>
-                            <td>The opening and closing table tag</td>
-                        </tr>
-                        <tr>
-                            <td>>thead>     >/thead></td>
-                            <td>Specifies the head of the table.</td>
-                        </tr>
-                        <tr>
-                            <td>>tbody>     >/tbody></td>
-                            <td>Specifies the body, or main section of the table.</td>
-                        </tr>
-                        <tr>
-                            <td>>tfoot>     >/tfoot></td>
-                            <td>Specifies the footer section of the table.</td>
-                        </tr>
-                        <tr>
-                            <td>>tr>    >/tr></td>
-                            <td>Creates a new row in the table.</td>
-                        </tr>
-                        <tr>
-                            <td>>td>    >/td></td>
-                            <td>Creates a 'cell' in the table, adding columns across the rows.</td>
-                        </tr>
-                        <tr>
-                            <td>>td colspan="2">    >/td></td>
-                            <td>The new cell created will span across two columns.</td>
-                        </tr>
-                        <tr>
-                            <td>>td rowspan="2"    >/td></td>
-                            <td>The new cell will span down two rows.</td>
-                        </tr>
-                    </tbody>
-                    <tfoot>
-                        <tr>
-                            <td colspan="2">That's the long and short of HTML table syntax!</td>
-                        </tr>
-                    </tfoot>
-                </table>
+                <article class="cheatsheet__header">
+                    <h2 class="cheatsheet__heading">HTML Table Cheat-Sheet:</h2>
+                    <p class="cheatsheet__info">This is a table containing HTML table syntax, with a brief description alongside. You will notice that this table looks much more put together, and is easer to read due to some extra CSS.</p>
+                </article>
+                <article class="cheatsheet__table">
+                    <table class="cheatsheet__table__index">
+                        <thead>
+                            <tr>
+                                <th span="col" class="cheatsheet__table__right">Syntax</th>
+                                <th span="col">Description</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="cheatsheet__table__right">>table>     >/table></td>
+                                <td>The opening and closing table tag</td>
+                            </tr>
+                            <tr>
+                                <td class="cheatsheet__table__right">>thead>     >/thead></td>
+                                <td>Specifies the head of the table.</td>
+                            </tr>
+                            <tr>
+                                <td class="cheatsheet__table__right">>tbody>     >/tbody></td>
+                                <td>Specifies the body, or main section of the table.</td>
+                            </tr>
+                            <tr>
+                                <td class="cheatsheet__table__right">>tfoot>    >/tfoot></td>
+                                <td>Specifies the footer section of the table.</td>
+                            </tr>
+                            <tr>
+                                <td class="cheatsheet__table__right">>tr>    >/tr></td>
+                                <td>Creates a new row in the table.</td>
+                            </tr>
+                            <tr>
+                                <td class="cheatsheet__table__right">>td>    >/td></td>
+                                <td>Creates a 'cell' in the table, adding columns across the rows.</td>
+                            </tr>
+                            <tr>
+                                <td class="cheatsheet__table__right">>td colspan="2">    >/td></td>
+                                <td>The new cell created will span across two columns.</td>
+                            </tr>
+                            <tr>
+                                <td class="cheatsheet__table__right">>td rowspan="2"    >/td></td>
+                                <td>The new cell will span down two rows.</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="2">That's the long and short of HTML table syntax!</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </article>
             </section>
             <section class="conclusion">
                 <h2 class="conclusion__heading">Conclusion</h2>
                 <p class="conclusion__info">Hopefully this helps with understanding HTML tables. We have looked at some of the limitations of HTML tables, and also gone over most of the syntax involved.</p>
                 <aside class="conclusion__thought">
-                    The most compelling argument for HTML tables is their relative ease> However, I would say that the biggest drawback the humble table faces is their non-responsive nature. This is where CSS Grids truly shine strong. But thats a story for another time.
+                    The most compelling argument for HTML tables is their relative ease. However, I would say that the biggest drawback the humble table faces is their non-responsive nature. This is where CSS Grids truly shine strong. At the end of the day, it comes down to slightly different use cases.
                 </aside>
             </section>
         </body>
-        <footer class="info">
+        <footer class="feeet">
             <p>A codecademy project by Nicholas Atkinson.</p>
         </footer>
     <main>
