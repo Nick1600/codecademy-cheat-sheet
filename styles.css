@@ -59,3 +59,18 @@ h2 {
     align-items: center;
     justify-content: center;
 }
+
+.cheatsheet__header {
+    background-color: hsl(0, 55%, 21%);
+    height: 85px;
+}
+.cheatsheet__heading {
+    color: white;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.cheatsheet__info {
+    color: white;
+    padding-left: 30px;
+}
+
